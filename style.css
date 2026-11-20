@@ -1,0 +1,96 @@
+
+/* Configurações gerais da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f3ef;
+    color: #292929;
+}
+
+/* Cabeçalho */
+header {
+    padding: 30px 8%;
+    background-color: #ffffff;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 100px 8%;
+    max-width: 900px;
+}
+
+main h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Botão */
+button {
+    background-color: #8b6b4a;
+    color: white;
+    border: none;
+    padding: 16px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* Cabeçalho organizado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #292929;
+    font-size: 15px;
+}
+
+/* Apresentação principal */
+main {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+main section {
+    max-width: 650px;
+}
+
+main section span {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #8b6b4a;
+    font-weight: bold;
+}
+
+main h2 {
+    margin-top: 25px;
+    line-height: 1.2;
+}
+
+button:hover {
+    background-color: #6f5237;
+}
